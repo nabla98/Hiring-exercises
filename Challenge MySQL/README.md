@@ -1,6 +1,8 @@
 # Challenge MySQL - posición Data Engineer SR/Ssr
 
+
 ### Descripción del negocio
+---------------------------
 
 "CoreBI School" es una entidad ficticia que será utilizada para evaluar la práctica en SQL.
 Como toda intitución educativa, la entidad está conformada por alumnos, docentes y equipo directivo. A fines de realizar este challenge se abstraerá una porción del negocio, conformando las siguientes entidades o tablas:
@@ -30,7 +32,10 @@ Como toda intitución educativa, la entidad está conformada por alumnos, docent
   </tr>
 </table>
 
+
 ### Instrucciones previas al desarrollo de las consignas
+--------------------------------------------------------
+
 
 Para llevar a cabo el challenge es necesario preparar el ambiente de trabajo. Para ello, se deberán seguir las siguientes instrucciones:
 
@@ -45,14 +50,20 @@ Para llevar a cabo el challenge es necesario preparar el ambiente de trabajo. Pa
 
 IMPORTANTE: Recuerde que debe entregat las consultas SQL elaboradas en un documento.
 
+
 ### Criterios a evaluar
+----------------------
+
 
 En cada consigna deberá proporcionar la consulta SQL que satisfaga cada enunciado. Para obtenerla, podrá utilizar el motor de la página web proporcionada.
 En cada solución se evaluarán los siguientes aspectos:
 * Efectividad (resultados correctos).
 * Complejidad (debe mantenerse al mínimo posible)
 
+
 ### Consignas
+-------------
+
 
 1. El equipo docente de la asignatura Historia sostiene que hay una gran cantidad de alumnos promocionados en su materia nacidos desde 1998 en adelante. Se desea obtener su id, nombre y fecha de nacimiento.
 
