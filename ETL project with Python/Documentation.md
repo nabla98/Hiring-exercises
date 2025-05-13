@@ -25,3 +25,7 @@ Este pipeline de ETL proporciona una base sólida para desarrollos futuros en á
 ![Diagrama_ER](./images/diagrama_ER.png)
 
 ## Enfoque personal y posibles mejoras
+
+Mi enfoque personal consistió en el armado de un pipeline básico pero funcional, poniendo énfasis en el control de calidad de los datos para producir métricas confiables. Es por este motivo que utilice un enfoque de modelado de datos relacional (SQL) para garantizar la calidad y confiabilidad de los mismos.
+Las posibles mejoras que tiene este desarrollo son diversas, en cuanto a la extracción automatizada se podría implementar Airflow o Nifi para gestionar la ejecución diaria del script. Respecto a la base de datos y para garantizar la escalabilidad del almacenamiento se puede continuar optimizando las tablas y adicionando índices, además, podría considerarse la idea de utilizar otro motor de bases de datos como Teradata si el caudal de información es lo suficientemente alto.
+Por último, para aprovechar al máximo la visualización y el monitoreo de datos pueden utilizarse herramientas un tanto mas sofisticadas como Power BI, Tableau, Looker o Grafana, todas ellas ofrecen conectores e integraciones con Bases de datos SQL y NoSQL.
